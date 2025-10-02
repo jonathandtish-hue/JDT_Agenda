@@ -41,51 +41,46 @@
 
 ## Daily Sections
 
-### Monday
-<div style="background-color: #FFDDC1; padding: 10px;">
-  <!-- Tasks for Monday -->
-  - [ ] Task 1
-  - [ ] Task 2
+<!-- Set the color for this week by changing --week-bg -->
+<div class="week-row workweek" style="display: flex; gap: 12px; align-items: stretch; --week-bg: #E6F4FF;">
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Monday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Tuesday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Wednesday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Thursday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Friday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
+  
 </div>
 
-### Tuesday
-<div style="background-color: #FFABAB; padding: 10px;">
-  <!-- Tasks for Tuesday -->
-  - [ ] Task 1
-  - [ ] Task 2
-</div>
-
-### Wednesday
-<div style="background-color: #FFC3A0; padding: 10px;">
-  <!-- Tasks for Wednesday -->
-  - [ ] Task 1
-  - [ ] Task 2
-</div>
-
-### Thursday
-<div style="background-color: #D5AAFF; padding: 10px;">
-  <!-- Tasks for Thursday -->
-  - [ ] Task 1
-  - [ ] Task 2
-</div>
-
-### Friday
-<div style="background-color: #85E3FF; padding: 10px;">
-  <!-- Tasks for Friday -->
-  - [ ] Task 1
-  - [ ] Task 2
-</div>
-
-### Saturday
-<div style="background-color: #B9FBC0; padding: 10px;">
-  <!-- Tasks for Saturday -->
-  - [ ] Task 1
-  - [ ] Task 2
-</div>
-
-### Sunday
-<div style="background-color: #FF677D; padding: 10px;">
-  <!-- Tasks for Sunday -->
-  - [ ] Task 1
-  - [ ] Task 2
+<!-- Weekend row (optional). Set a separate color if desired. -->
+<div class="week-row weekend" style="display: flex; gap: 12px; align-items: stretch; margin-top: 12px; --week-bg: #F0FFE6;">
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Saturday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
+  <div class="day" style="flex: 1; background-color: var(--week-bg); padding: 10px; border-radius: 8px;">
+    <h4>Sunday</h4>
+    - [ ] Task 1
+    - [ ] Task 2
+  </div>
 </div>
